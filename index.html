@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nandan Kumar | Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f4f4f4;
+            color: #222;
+        }
+
+        header {
+            background: #1e293b;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 80px 20px;
+            background: white;
+        }
+
+        .hero h1 {
+            font-size: 40px;
+            color: #2563eb;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #2563eb;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .skills {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .skill {
+            background: white;
+            padding: 15px 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px #ccc;
+        }
+
+        footer {
+            background: #1e293b;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        
+        }
+        /* Projects Section */
+
+.projects-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.project-card {
+    background: white;
+    width: 280px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px #ccc;
+    transition: transform 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+}
+
+.project-card h3 {
+    color: #2563eb;
+    margin-bottom: 12px;
+}
+
+.project-card p {
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.project-btn {
+    display: inline-block;
+    background: #2563eb;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <h2>Nandan Kumar</h2>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <h1>Hello, I'm Nandan Kumar</h1>
+        <p>Web Developer | Learner | Problem Solver</p>
+        <a href="#contact" class="btn">Contact Me</a>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am learning web development and building
+            projects to improve my coding skills.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>My Skills</h2>
+
+        <div class="skills">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+        </div>
+    </section>
+    <!-- Projects Section -->
+
+    <section id="projects">
+
+        <h2>My Projects</h2>
+
+        <div class="projects-container">
+
+            <div class="project-card">
+                <h3>My Portfolio</h3>
+                <p>
+                    A personal portfolio website
+                    created using HTML and CSS.
+                </p>
+                <a href="#" class="project-btn">
+                    View Project
+                </a>
+            </div>
+
+            <div class="project-card">
+                <h3>Calculator</h3>
+                <p>
+                    A simple calculator project
+                    built using HTML, CSS and JavaScript.
+                </p>
+                <a href="#" class="project-btn">
+                    View Project
+                </a>
+            </div>
+
+            <div class="project-card">
+                <h3>Landing Page</h3>
+                <p>
+                    A responsive landing page
+                    designed using HTML and CSS.
+                </p>
+                <a href="#" class="project-btn">
+                    View Project
+                </a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: your-email@example.com</p>
+    </section>
+
+    <footer>
+        <p>© 2026 Nandan Kumar. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
